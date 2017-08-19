@@ -1,0 +1,1083 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C11DE91251609767DA5338D /* libPods-AddressFlu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320785F9269EAA40546819EB /* libPods-AddressFlu.a */; };
+		9811E6DF1F1CCF7E00938A24 /* TencetChangeBDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9811E6DE1F1CCF7E00938A24 /* TencetChangeBDViewController.m */; };
+		9827220D1F15D399009586EF /* BDPOISearchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9827220C1F15D399009586EF /* BDPOISearchHandler.m */; };
+		982722101F15D5DE009586EF /* BDPOIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9827220F1F15D5DE009586EF /* BDPOIModel.m */; };
+		982722131F15D61E009586EF /* BDPOILocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 982722121F15D61E009586EF /* BDPOILocationModel.m */; };
+		982722161F15D762009586EF /* BDPOIReturnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 982722151F15D762009586EF /* BDPOIReturnModel.m */; };
+		982A1F4A1F13957B0035EDAC /* 高德地图API 城市编码对照表.csv in Resources */ = {isa = PBXBuildFile; fileRef = 982A1F491F13957B0035EDAC /* 高德地图API 城市编码对照表.csv */; };
+		982A1F4C1F1461B60035EDAC /* 230102-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 982A1F4B1F1461B60035EDAC /* 230102-1.csv */; };
+		983D096E1F467B5D00AC50A9 /* BudongchangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D096D1F467B5D00AC50A9 /* BudongchangViewController.m */; };
+		983D09701F46843200AC50A9 /* 幸福指数评价模型-表格 1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 983D096F1F46843200AC50A9 /* 幸福指数评价模型-表格 1.csv */; };
+		983D09731F4684DC00AC50A9 /* BDRadiusSearchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D09721F4684DC00AC50A9 /* BDRadiusSearchHandler.m */; };
+		983D09761F468B1200AC50A9 /* BDDetailInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D09751F468B1200AC50A9 /* BDDetailInfoModel.m */; };
+		983D09791F468C5A00AC50A9 /* BDRadiuSearchReturnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D09781F468C5A00AC50A9 /* BDRadiuSearchReturnModel.m */; };
+		983D097C1F468DAD00AC50A9 /* BDRouteSearchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D097B1F468DAD00AC50A9 /* BDRouteSearchHandler.m */; };
+		983D097F1F4694F000AC50A9 /* BDRoutematrixModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D097E1F4694F000AC50A9 /* BDRoutematrixModel.m */; };
+		983D09821F46954C00AC50A9 /* BDDistanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D09811F46954C00AC50A9 /* BDDistanceModel.m */; };
+		983D09851F46963700AC50A9 /* BDDurationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D09841F46963700AC50A9 /* BDDurationModel.m */; };
+		983D09881F469C6500AC50A9 /* BDRoutematrixReturnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D09871F469C6500AC50A9 /* BDRoutematrixReturnModel.m */; };
+		983D098B1F47E25100AC50A9 /* BudongchangHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D098A1F47E25100AC50A9 /* BudongchangHandler.m */; };
+		983D098E1F48223100AC50A9 /* BDBudongchangPOISearchHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D098C1F48223000AC50A9 /* BDBudongchangPOISearchHandle.m */; };
+		983D09901F4823CB00AC50A9 /* 幸福指数评价模型-表格 2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 983D098F1F4823CB00AC50A9 /* 幸福指数评价模型-表格 2.csv */; };
+		985395051F0DC84D000E1E0A /* 黑龙江省区县名称.csv in Resources */ = {isa = PBXBuildFile; fileRef = 985395041F0DC84D000E1E0A /* 黑龙江省区县名称.csv */; };
+		985395081F0DC873000E1E0A /* FindCentLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 985395071F0DC873000E1E0A /* FindCentLocationViewController.m */; };
+		9853950B1F0DCD7D000E1E0A /* FindCountyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9853950A1F0DCD7D000E1E0A /* FindCountyHandler.m */; };
+		9853950E1F0DD0BE000E1E0A /* DistrictModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9853950D1F0DD0BE000E1E0A /* DistrictModel.m */; };
+		985395111F0DD351000E1E0A /* FindCountyReturnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 985395101F0DD351000E1E0A /* FindCountyReturnModel.m */; };
+		986FED5E1F186A1C008B6857 /* 230102-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 986FED5D1F186A1C008B6857 /* 230102-2.csv */; };
+		98794F671ED0957C00D47F0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98794F661ED0957C00D47F0E /* main.m */; };
+		98794F6A1ED0957C00D47F0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98794F691ED0957C00D47F0E /* AppDelegate.m */; };
+		98794F701ED0957C00D47F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98794F6E1ED0957C00D47F0E /* Main.storyboard */; };
+		98794F721ED0957C00D47F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98794F711ED0957C00D47F0E /* Assets.xcassets */; };
+		98794F751ED0957C00D47F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98794F731ED0957C00D47F0E /* LaunchScreen.storyboard */; };
+		98794F801ED0957C00D47F0E /* AddressFluTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98794F7F1ED0957C00D47F0E /* AddressFluTests.m */; };
+		98794F8B1ED0957C00D47F0E /* AddressFluUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98794F8A1ED0957C00D47F0E /* AddressFluUITests.m */; };
+		98794FAB1ED096D200D47F0E /* AddressComponentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98794FA61ED096D200D47F0E /* AddressComponentModel.m */; };
+		98794FAC1ED096D200D47F0E /* GDGetCodeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 98794FA81ED096D200D47F0E /* GDGetCodeHandler.m */; };
+		98794FAD1ED096D200D47F0E /* GDGetCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98794FAA1ED096D200D47F0E /* GDGetCodeModel.m */; };
+		98794FB01ED0976400D47F0E /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98794FAF1ED0976400D47F0E /* AddressViewController.m */; };
+		98794FB91ED0B84E00D47F0E /* parseCSV.m in Sources */ = {isa = PBXBuildFile; fileRef = 98794FB81ED0B84E00D47F0E /* parseCSV.m */; };
+		98794FBF1ED1269900D47F0E /* SaveCSVDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98794FBE1ED1269900D47F0E /* SaveCSVDataModel.m */; };
+		98847E9D1ED95CFA00C61B9D /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98847E9C1ED95CFA00C61B9D /* CodeViewController.m */; };
+		98847EA01ED95FB600C61B9D /* GDCodeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 98847E9F1ED95FB600C61B9D /* GDCodeHandler.m */; };
+		98847EA31ED960A300C61B9D /* GeCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98847EA21ED960A300C61B9D /* GeCodeModel.m */; };
+		98847EA61ED961B000C61B9D /* GeCodeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98847EA51ED961B000C61B9D /* GeCodeListModel.m */; };
+		988E5EEB1F205F09004611B7 /* 230202.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EDB1F205F09004611B7 /* 230202.csv */; };
+		988E5EEC1F205F09004611B7 /* 230203.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EDC1F205F09004611B7 /* 230203.csv */; };
+		988E5EED1F205F09004611B7 /* 230204.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EDD1F205F09004611B7 /* 230204.csv */; };
+		988E5EEE1F205F09004611B7 /* 230205.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EDE1F205F09004611B7 /* 230205.csv */; };
+		988E5EEF1F205F09004611B7 /* 230206.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EDF1F205F09004611B7 /* 230206.csv */; };
+		988E5EF01F205F09004611B7 /* 230207.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EE01F205F09004611B7 /* 230207.csv */; };
+		988E5EF11F205F09004611B7 /* 230208.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EE11F205F09004611B7 /* 230208.csv */; };
+		988E5EF21F205F09004611B7 /* 230221.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EE21F205F09004611B7 /* 230221.csv */; };
+		988E5EF31F205F09004611B7 /* 230223.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EE31F205F09004611B7 /* 230223.csv */; };
+		988E5EF41F205F09004611B7 /* 230224.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EE41F205F09004611B7 /* 230224.csv */; };
+		988E5EF51F205F09004611B7 /* 230225.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EE51F205F09004611B7 /* 230225.csv */; };
+		988E5EF61F205F09004611B7 /* 230227.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EE61F205F09004611B7 /* 230227.csv */; };
+		988E5EF71F205F09004611B7 /* 230229.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EE71F205F09004611B7 /* 230229.csv */; };
+		988E5EF81F205F09004611B7 /* 230230.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EE81F205F09004611B7 /* 230230.csv */; };
+		988E5EF91F205F09004611B7 /* 230231.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EE91F205F09004611B7 /* 230231.csv */; };
+		988E5EFA1F205F09004611B7 /* 230281.csv in Resources */ = {isa = PBXBuildFile; fileRef = 988E5EEA1F205F09004611B7 /* 230281.csv */; };
+		9899A8A51EE2416E00E0D8DD /* GDLocationTranToBaiduLocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9899A8A41EE2416E00E0D8DD /* GDLocationTranToBaiduLocationHandler.m */; };
+		9899A8A81EE243BA00E0D8DD /* GPSspgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9899A8A71EE243BA00E0D8DD /* GPSspgModel.m */; };
+		9899A8AB1EE2456F00E0D8DD /* GPSspgTranforReturnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9899A8AA1EE2456F00E0D8DD /* GPSspgTranforReturnModel.m */; };
+		9899A8AE1EE2474300E0D8DD /* LocationTranfromController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9899A8AD1EE2474300E0D8DD /* LocationTranfromController.m */; };
+		989C9F961F049FC500FB3034 /* ChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989C9F951F049FC500FB3034 /* ChangeViewController.m */; };
+		98B270871EEE8DE60050569A /* GDPOIReturnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B270861EEE8DE60050569A /* GDPOIReturnModel.m */; };
+		98E0DB6E1EE50E9300281686 /* LocationTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0DB6D1EE50E9300281686 /* LocationTestViewController.m */; };
+		98E0DB771EE6993900281686 /* ErrorDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0DB761EE6993900281686 /* ErrorDataViewController.m */; };
+		98E0DB7F1EE7B06C00281686 /* TubarHTMLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0DB7E1EE7B06C00281686 /* TubarHTMLModel.m */; };
+		98E0DB821EE7B1FC00281686 /* GetTubarHTMLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0DB811EE7B1FC00281686 /* GetTubarHTMLHandler.m */; };
+		98E0DB851EE7DF4200281686 /* AnalysisHTMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0DB841EE7DF4200281686 /* AnalysisHTMLViewController.m */; };
+		98E0DB8A1EE8D94900281686 /* AnalysisTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0DB891EE8D94900281686 /* AnalysisTableViewController.m */; };
+		98E0DB8E1EE92E6700281686 /* GDPOIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0DB8D1EE92E6700281686 /* GDPOIModel.m */; };
+		98E0DB911EE9358C00281686 /* GDPOISearchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0DB901EE9358C00281686 /* GDPOISearchHandler.m */; };
+		98E66A1B1EDE97F200AEBCB6 /* BDCodeTransHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E66A1A1EDE97F200AEBCB6 /* BDCodeTransHandler.m */; };
+		98E66A1E1EDE995200AEBCB6 /* BDLocationTranModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E66A1D1EDE995200AEBCB6 /* BDLocationTranModel.m */; };
+		98E66A211EDE99C400AEBCB6 /* BDLocationTranReturnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E66A201EDE99C400AEBCB6 /* BDLocationTranReturnModel.m */; };
+		98E93D4F1ED13EDB00509A50 /* Ws84convertToGDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E93D4E1ED13EDB00509A50 /* Ws84convertToGDHandler.m */; };
+		98E93D521ED13F8E00509A50 /* Ws84ConvertToGDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E93D511ED13F8E00509A50 /* Ws84ConvertToGDModel.m */; };
+		98E93D551ED141EC00509A50 /* Ws84ConvertReturnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E93D541ED141EC00509A50 /* Ws84ConvertReturnModel.m */; };
+		98E93D581ED1451D00509A50 /* Ws84ConvertGDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E93D571ED1451D00509A50 /* Ws84ConvertGDManager.m */; };
+		98F73D131F07A8AD00325890 /* GecodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F73D121F07A8AD00325890 /* GecodeViewController.m */; };
+		98F73D171F07AF9300325890 /* 终端_道里区_20170701171423.csv in Resources */ = {isa = PBXBuildFile; fileRef = 98F73D161F07AF9300325890 /* 终端_道里区_20170701171423.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98794F7C1ED0957C00D47F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98794F5A1ED0957C00D47F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98794F611ED0957C00D47F0E;
+			remoteInfo = AddressFlu;
+		};
+		98794F871ED0957C00D47F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98794F5A1ED0957C00D47F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98794F611ED0957C00D47F0E;
+			remoteInfo = AddressFlu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		320785F9269EAA40546819EB /* libPods-AddressFlu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AddressFlu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		414F33B6E6687AF8B375939D /* Pods-AddressFlu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressFlu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AddressFlu/Pods-AddressFlu.debug.xcconfig"; sourceTree = "<group>"; };
+		9811E6DD1F1CCF7E00938A24 /* TencetChangeBDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TencetChangeBDViewController.h; sourceTree = "<group>"; };
+		9811E6DE1F1CCF7E00938A24 /* TencetChangeBDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TencetChangeBDViewController.m; sourceTree = "<group>"; };
+		9827220B1F15D399009586EF /* BDPOISearchHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPOISearchHandler.h; sourceTree = "<group>"; };
+		9827220C1F15D399009586EF /* BDPOISearchHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPOISearchHandler.m; sourceTree = "<group>"; };
+		9827220E1F15D5DE009586EF /* BDPOIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPOIModel.h; sourceTree = "<group>"; };
+		9827220F1F15D5DE009586EF /* BDPOIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPOIModel.m; sourceTree = "<group>"; };
+		982722111F15D61E009586EF /* BDPOILocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPOILocationModel.h; sourceTree = "<group>"; };
+		982722121F15D61E009586EF /* BDPOILocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPOILocationModel.m; sourceTree = "<group>"; };
+		982722141F15D762009586EF /* BDPOIReturnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPOIReturnModel.h; sourceTree = "<group>"; };
+		982722151F15D762009586EF /* BDPOIReturnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPOIReturnModel.m; sourceTree = "<group>"; };
+		982A1F491F13957B0035EDAC /* 高德地图API 城市编码对照表.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "高德地图API 城市编码对照表.csv"; sourceTree = SOURCE_ROOT; };
+		982A1F4B1F1461B60035EDAC /* 230102-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "230102-1.csv"; sourceTree = SOURCE_ROOT; };
+		983D096C1F467B5D00AC50A9 /* BudongchangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudongchangViewController.h; sourceTree = "<group>"; };
+		983D096D1F467B5D00AC50A9 /* BudongchangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudongchangViewController.m; sourceTree = "<group>"; };
+		983D096F1F46843200AC50A9 /* 幸福指数评价模型-表格 1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "幸福指数评价模型-表格 1.csv"; sourceTree = "<group>"; };
+		983D09711F4684DC00AC50A9 /* BDRadiusSearchHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRadiusSearchHandler.h; sourceTree = "<group>"; };
+		983D09721F4684DC00AC50A9 /* BDRadiusSearchHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDRadiusSearchHandler.m; sourceTree = "<group>"; };
+		983D09741F468B1200AC50A9 /* BDDetailInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDDetailInfoModel.h; sourceTree = "<group>"; };
+		983D09751F468B1200AC50A9 /* BDDetailInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDDetailInfoModel.m; sourceTree = "<group>"; };
+		983D09771F468C5A00AC50A9 /* BDRadiuSearchReturnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRadiuSearchReturnModel.h; sourceTree = "<group>"; };
+		983D09781F468C5A00AC50A9 /* BDRadiuSearchReturnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDRadiuSearchReturnModel.m; sourceTree = "<group>"; };
+		983D097A1F468DAD00AC50A9 /* BDRouteSearchHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRouteSearchHandler.h; sourceTree = "<group>"; };
+		983D097B1F468DAD00AC50A9 /* BDRouteSearchHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDRouteSearchHandler.m; sourceTree = "<group>"; };
+		983D097D1F4694F000AC50A9 /* BDRoutematrixModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRoutematrixModel.h; sourceTree = "<group>"; };
+		983D097E1F4694F000AC50A9 /* BDRoutematrixModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDRoutematrixModel.m; sourceTree = "<group>"; };
+		983D09801F46954C00AC50A9 /* BDDistanceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDDistanceModel.h; sourceTree = "<group>"; };
+		983D09811F46954C00AC50A9 /* BDDistanceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDDistanceModel.m; sourceTree = "<group>"; };
+		983D09831F46963700AC50A9 /* BDDurationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDDurationModel.h; sourceTree = "<group>"; };
+		983D09841F46963700AC50A9 /* BDDurationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDDurationModel.m; sourceTree = "<group>"; };
+		983D09861F469C6500AC50A9 /* BDRoutematrixReturnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRoutematrixReturnModel.h; sourceTree = "<group>"; };
+		983D09871F469C6500AC50A9 /* BDRoutematrixReturnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDRoutematrixReturnModel.m; sourceTree = "<group>"; };
+		983D09891F47E25100AC50A9 /* BudongchangHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudongchangHandler.h; sourceTree = "<group>"; };
+		983D098A1F47E25100AC50A9 /* BudongchangHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudongchangHandler.m; sourceTree = "<group>"; };
+		983D098C1F48223000AC50A9 /* BDBudongchangPOISearchHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBudongchangPOISearchHandle.m; sourceTree = "<group>"; };
+		983D098D1F48223100AC50A9 /* BDBudongchangPOISearchHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBudongchangPOISearchHandler.h; sourceTree = "<group>"; };
+		983D098F1F4823CB00AC50A9 /* 幸福指数评价模型-表格 2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "幸福指数评价模型-表格 2.csv"; sourceTree = "<group>"; };
+		985395041F0DC84D000E1E0A /* 黑龙江省区县名称.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "黑龙江省区县名称.csv"; sourceTree = SOURCE_ROOT; };
+		985395061F0DC873000E1E0A /* FindCentLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCentLocationViewController.h; sourceTree = "<group>"; };
+		985395071F0DC873000E1E0A /* FindCentLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCentLocationViewController.m; sourceTree = "<group>"; };
+		985395091F0DCD7D000E1E0A /* FindCountyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCountyHandler.h; sourceTree = "<group>"; };
+		9853950A1F0DCD7D000E1E0A /* FindCountyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCountyHandler.m; sourceTree = "<group>"; };
+		9853950C1F0DD0BE000E1E0A /* DistrictModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistrictModel.h; sourceTree = "<group>"; };
+		9853950D1F0DD0BE000E1E0A /* DistrictModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistrictModel.m; sourceTree = "<group>"; };
+		9853950F1F0DD351000E1E0A /* FindCountyReturnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCountyReturnModel.h; sourceTree = "<group>"; };
+		985395101F0DD351000E1E0A /* FindCountyReturnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCountyReturnModel.m; sourceTree = "<group>"; };
+		986FED5D1F186A1C008B6857 /* 230102-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "230102-2.csv"; sourceTree = SOURCE_ROOT; };
+		98794F621ED0957C00D47F0E /* AddressFlu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressFlu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98794F661ED0957C00D47F0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98794F681ED0957C00D47F0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98794F691ED0957C00D47F0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98794F6F1ED0957C00D47F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98794F711ED0957C00D47F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98794F741ED0957C00D47F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98794F761ED0957C00D47F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98794F7B1ED0957C00D47F0E /* AddressFluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressFluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98794F7F1ED0957C00D47F0E /* AddressFluTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressFluTests.m; sourceTree = "<group>"; };
+		98794F811ED0957C00D47F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98794F861ED0957C00D47F0E /* AddressFluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressFluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98794F8A1ED0957C00D47F0E /* AddressFluUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressFluUITests.m; sourceTree = "<group>"; };
+		98794F8C1ED0957C00D47F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98794FA51ED096D200D47F0E /* AddressComponentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressComponentModel.h; sourceTree = "<group>"; };
+		98794FA61ED096D200D47F0E /* AddressComponentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressComponentModel.m; sourceTree = "<group>"; };
+		98794FA71ED096D200D47F0E /* GDGetCodeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDGetCodeHandler.h; sourceTree = "<group>"; };
+		98794FA81ED096D200D47F0E /* GDGetCodeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDGetCodeHandler.m; sourceTree = "<group>"; };
+		98794FA91ED096D200D47F0E /* GDGetCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDGetCodeModel.h; sourceTree = "<group>"; };
+		98794FAA1ED096D200D47F0E /* GDGetCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDGetCodeModel.m; sourceTree = "<group>"; };
+		98794FAE1ED0976400D47F0E /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
+		98794FAF1ED0976400D47F0E /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
+		98794FB71ED0B84E00D47F0E /* parseCSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseCSV.h; sourceTree = "<group>"; };
+		98794FB81ED0B84E00D47F0E /* parseCSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parseCSV.m; sourceTree = "<group>"; };
+		98794FBA1ED0B92400D47F0E /* JXArcCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXArcCompatibilityMacros.h; sourceTree = "<group>"; };
+		98794FBD1ED1269900D47F0E /* SaveCSVDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveCSVDataModel.h; sourceTree = "<group>"; };
+		98794FBE1ED1269900D47F0E /* SaveCSVDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveCSVDataModel.m; sourceTree = "<group>"; };
+		98847E9B1ED95CFA00C61B9D /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
+		98847E9C1ED95CFA00C61B9D /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
+		98847E9E1ED95FB600C61B9D /* GDCodeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCodeHandler.h; sourceTree = "<group>"; };
+		98847E9F1ED95FB600C61B9D /* GDCodeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCodeHandler.m; sourceTree = "<group>"; };
+		98847EA11ED960A300C61B9D /* GeCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeCodeModel.h; sourceTree = "<group>"; };
+		98847EA21ED960A300C61B9D /* GeCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeCodeModel.m; sourceTree = "<group>"; };
+		98847EA41ED961B000C61B9D /* GeCodeListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeCodeListModel.h; sourceTree = "<group>"; };
+		98847EA51ED961B000C61B9D /* GeCodeListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeCodeListModel.m; sourceTree = "<group>"; };
+		988E5EDB1F205F09004611B7 /* 230202.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230202.csv; sourceTree = "<group>"; };
+		988E5EDC1F205F09004611B7 /* 230203.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230203.csv; sourceTree = "<group>"; };
+		988E5EDD1F205F09004611B7 /* 230204.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230204.csv; sourceTree = "<group>"; };
+		988E5EDE1F205F09004611B7 /* 230205.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230205.csv; sourceTree = "<group>"; };
+		988E5EDF1F205F09004611B7 /* 230206.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230206.csv; sourceTree = "<group>"; };
+		988E5EE01F205F09004611B7 /* 230207.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230207.csv; sourceTree = "<group>"; };
+		988E5EE11F205F09004611B7 /* 230208.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230208.csv; sourceTree = "<group>"; };
+		988E5EE21F205F09004611B7 /* 230221.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230221.csv; sourceTree = "<group>"; };
+		988E5EE31F205F09004611B7 /* 230223.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230223.csv; sourceTree = "<group>"; };
+		988E5EE41F205F09004611B7 /* 230224.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230224.csv; sourceTree = "<group>"; };
+		988E5EE51F205F09004611B7 /* 230225.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230225.csv; sourceTree = "<group>"; };
+		988E5EE61F205F09004611B7 /* 230227.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230227.csv; sourceTree = "<group>"; };
+		988E5EE71F205F09004611B7 /* 230229.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230229.csv; sourceTree = "<group>"; };
+		988E5EE81F205F09004611B7 /* 230230.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230230.csv; sourceTree = "<group>"; };
+		988E5EE91F205F09004611B7 /* 230231.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230231.csv; sourceTree = "<group>"; };
+		988E5EEA1F205F09004611B7 /* 230281.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 230281.csv; sourceTree = "<group>"; };
+		9899A8A31EE2416E00E0D8DD /* GDLocationTranToBaiduLocationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDLocationTranToBaiduLocationHandler.h; sourceTree = "<group>"; };
+		9899A8A41EE2416E00E0D8DD /* GDLocationTranToBaiduLocationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDLocationTranToBaiduLocationHandler.m; sourceTree = "<group>"; };
+		9899A8A61EE243BA00E0D8DD /* GPSspgModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSspgModel.h; sourceTree = "<group>"; };
+		9899A8A71EE243BA00E0D8DD /* GPSspgModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSspgModel.m; sourceTree = "<group>"; };
+		9899A8A91EE2456F00E0D8DD /* GPSspgTranforReturnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSspgTranforReturnModel.h; sourceTree = "<group>"; };
+		9899A8AA1EE2456F00E0D8DD /* GPSspgTranforReturnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSspgTranforReturnModel.m; sourceTree = "<group>"; };
+		9899A8AC1EE2474300E0D8DD /* LocationTranfromController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTranfromController.h; sourceTree = "<group>"; };
+		9899A8AD1EE2474300E0D8DD /* LocationTranfromController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTranfromController.m; sourceTree = "<group>"; };
+		989C9F941F049FC500FB3034 /* ChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeViewController.h; sourceTree = "<group>"; };
+		989C9F951F049FC500FB3034 /* ChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeViewController.m; sourceTree = "<group>"; };
+		98B270851EEE8DE60050569A /* GDPOIReturnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPOIReturnModel.h; sourceTree = "<group>"; };
+		98B270861EEE8DE60050569A /* GDPOIReturnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDPOIReturnModel.m; sourceTree = "<group>"; };
+		98E0DB6C1EE50E9300281686 /* LocationTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTestViewController.h; sourceTree = "<group>"; };
+		98E0DB6D1EE50E9300281686 /* LocationTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTestViewController.m; sourceTree = "<group>"; };
+		98E0DB751EE6993900281686 /* ErrorDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorDataViewController.h; sourceTree = "<group>"; };
+		98E0DB761EE6993900281686 /* ErrorDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorDataViewController.m; sourceTree = "<group>"; };
+		98E0DB7D1EE7B06C00281686 /* TubarHTMLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TubarHTMLModel.h; sourceTree = "<group>"; };
+		98E0DB7E1EE7B06C00281686 /* TubarHTMLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TubarHTMLModel.m; sourceTree = "<group>"; };
+		98E0DB801EE7B1FC00281686 /* GetTubarHTMLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTubarHTMLHandler.h; sourceTree = "<group>"; };
+		98E0DB811EE7B1FC00281686 /* GetTubarHTMLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTubarHTMLHandler.m; sourceTree = "<group>"; };
+		98E0DB831EE7DF4200281686 /* AnalysisHTMLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysisHTMLViewController.h; sourceTree = "<group>"; };
+		98E0DB841EE7DF4200281686 /* AnalysisHTMLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysisHTMLViewController.m; sourceTree = "<group>"; };
+		98E0DB881EE8D94900281686 /* AnalysisTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysisTableViewController.h; sourceTree = "<group>"; };
+		98E0DB891EE8D94900281686 /* AnalysisTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysisTableViewController.m; sourceTree = "<group>"; };
+		98E0DB8C1EE92E6700281686 /* GDPOIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPOIModel.h; sourceTree = "<group>"; };
+		98E0DB8D1EE92E6700281686 /* GDPOIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDPOIModel.m; sourceTree = "<group>"; };
+		98E0DB8F1EE9358C00281686 /* GDPOISearchHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPOISearchHandler.h; sourceTree = "<group>"; };
+		98E0DB901EE9358C00281686 /* GDPOISearchHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDPOISearchHandler.m; sourceTree = "<group>"; };
+		98E66A191EDE97F200AEBCB6 /* BDCodeTransHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDCodeTransHandler.h; sourceTree = "<group>"; };
+		98E66A1A1EDE97F200AEBCB6 /* BDCodeTransHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDCodeTransHandler.m; sourceTree = "<group>"; };
+		98E66A1C1EDE995200AEBCB6 /* BDLocationTranModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDLocationTranModel.h; sourceTree = "<group>"; };
+		98E66A1D1EDE995200AEBCB6 /* BDLocationTranModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDLocationTranModel.m; sourceTree = "<group>"; };
+		98E66A1F1EDE99C400AEBCB6 /* BDLocationTranReturnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDLocationTranReturnModel.h; sourceTree = "<group>"; };
+		98E66A201EDE99C400AEBCB6 /* BDLocationTranReturnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDLocationTranReturnModel.m; sourceTree = "<group>"; };
+		98E93D4D1ED13EDB00509A50 /* Ws84convertToGDHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ws84convertToGDHandler.h; sourceTree = "<group>"; };
+		98E93D4E1ED13EDB00509A50 /* Ws84convertToGDHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ws84convertToGDHandler.m; sourceTree = "<group>"; };
+		98E93D501ED13F8E00509A50 /* Ws84ConvertToGDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ws84ConvertToGDModel.h; sourceTree = "<group>"; };
+		98E93D511ED13F8E00509A50 /* Ws84ConvertToGDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ws84ConvertToGDModel.m; sourceTree = "<group>"; };
+		98E93D531ED141EC00509A50 /* Ws84ConvertReturnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ws84ConvertReturnModel.h; sourceTree = "<group>"; };
+		98E93D541ED141EC00509A50 /* Ws84ConvertReturnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ws84ConvertReturnModel.m; sourceTree = "<group>"; };
+		98E93D561ED1451D00509A50 /* Ws84ConvertGDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ws84ConvertGDManager.h; sourceTree = "<group>"; };
+		98E93D571ED1451D00509A50 /* Ws84ConvertGDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ws84ConvertGDManager.m; sourceTree = "<group>"; };
+		98F73D111F07A8AD00325890 /* GecodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GecodeViewController.h; sourceTree = "<group>"; };
+		98F73D121F07A8AD00325890 /* GecodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GecodeViewController.m; sourceTree = "<group>"; };
+		98F73D161F07AF9300325890 /* 终端_道里区_20170701171423.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "终端_道里区_20170701171423.csv"; sourceTree = SOURCE_ROOT; };
+		BA38BF2708E89EDCC58BF324 /* Pods-AddressFlu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressFlu.release.xcconfig"; path = "Pods/Target Support Files/Pods-AddressFlu/Pods-AddressFlu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98794F5F1ED0957C00D47F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C11DE91251609767DA5338D /* libPods-AddressFlu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98794F781ED0957C00D47F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98794F831ED0957C00D47F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9827220A1F15D372009586EF /* BDPOI */ = {
+			isa = PBXGroup;
+			children = (
+				9827220B1F15D399009586EF /* BDPOISearchHandler.h */,
+				9827220C1F15D399009586EF /* BDPOISearchHandler.m */,
+				9827220E1F15D5DE009586EF /* BDPOIModel.h */,
+				9827220F1F15D5DE009586EF /* BDPOIModel.m */,
+				982722111F15D61E009586EF /* BDPOILocationModel.h */,
+				982722121F15D61E009586EF /* BDPOILocationModel.m */,
+				982722141F15D762009586EF /* BDPOIReturnModel.h */,
+				982722151F15D762009586EF /* BDPOIReturnModel.m */,
+				983D09741F468B1200AC50A9 /* BDDetailInfoModel.h */,
+				983D09751F468B1200AC50A9 /* BDDetailInfoModel.m */,
+			);
+			name = BDPOI;
+			sourceTree = "<group>";
+		};
+		983D096B1F467B0B00AC50A9 /* budongchangshuju */ = {
+			isa = PBXGroup;
+			children = (
+				983D098F1F4823CB00AC50A9 /* 幸福指数评价模型-表格 2.csv */,
+				983D098C1F48223000AC50A9 /* BDBudongchangPOISearchHandle.m */,
+				983D098D1F48223100AC50A9 /* BDBudongchangPOISearchHandler.h */,
+				983D096F1F46843200AC50A9 /* 幸福指数评价模型-表格 1.csv */,
+				983D096C1F467B5D00AC50A9 /* BudongchangViewController.h */,
+				983D096D1F467B5D00AC50A9 /* BudongchangViewController.m */,
+				983D09711F4684DC00AC50A9 /* BDRadiusSearchHandler.h */,
+				983D09721F4684DC00AC50A9 /* BDRadiusSearchHandler.m */,
+				983D09771F468C5A00AC50A9 /* BDRadiuSearchReturnModel.h */,
+				983D09781F468C5A00AC50A9 /* BDRadiuSearchReturnModel.m */,
+				983D097A1F468DAD00AC50A9 /* BDRouteSearchHandler.h */,
+				983D097B1F468DAD00AC50A9 /* BDRouteSearchHandler.m */,
+				983D097D1F4694F000AC50A9 /* BDRoutematrixModel.h */,
+				983D097E1F4694F000AC50A9 /* BDRoutematrixModel.m */,
+				983D09801F46954C00AC50A9 /* BDDistanceModel.h */,
+				983D09811F46954C00AC50A9 /* BDDistanceModel.m */,
+				983D09831F46963700AC50A9 /* BDDurationModel.h */,
+				983D09841F46963700AC50A9 /* BDDurationModel.m */,
+				983D09861F469C6500AC50A9 /* BDRoutematrixReturnModel.h */,
+				983D09871F469C6500AC50A9 /* BDRoutematrixReturnModel.m */,
+				983D09891F47E25100AC50A9 /* BudongchangHandler.h */,
+				983D098A1F47E25100AC50A9 /* BudongchangHandler.m */,
+			);
+			path = budongchangshuju;
+			sourceTree = "<group>";
+		};
+		985395031F0DC82D000E1E0A /* FindCenterLocation */ = {
+			isa = PBXGroup;
+			children = (
+				985395061F0DC873000E1E0A /* FindCentLocationViewController.h */,
+				985395071F0DC873000E1E0A /* FindCentLocationViewController.m */,
+				985395091F0DCD7D000E1E0A /* FindCountyHandler.h */,
+				9853950A1F0DCD7D000E1E0A /* FindCountyHandler.m */,
+				9853950C1F0DD0BE000E1E0A /* DistrictModel.h */,
+				9853950D1F0DD0BE000E1E0A /* DistrictModel.m */,
+				9853950F1F0DD351000E1E0A /* FindCountyReturnModel.h */,
+				985395101F0DD351000E1E0A /* FindCountyReturnModel.m */,
+			);
+			name = FindCenterLocation;
+			sourceTree = "<group>";
+		};
+		98794F591ED0957C00D47F0E = {
+			isa = PBXGroup;
+			children = (
+				98794F641ED0957C00D47F0E /* AddressFlu */,
+				98794F7E1ED0957C00D47F0E /* AddressFluTests */,
+				98794F891ED0957C00D47F0E /* AddressFluUITests */,
+				98794F631ED0957C00D47F0E /* Products */,
+				DA287A30F6C1B8D50E4F22D7 /* Pods */,
+				DEE7657E88661FDDD8A9FEAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98794F631ED0957C00D47F0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98794F621ED0957C00D47F0E /* AddressFlu.app */,
+				98794F7B1ED0957C00D47F0E /* AddressFluTests.xctest */,
+				98794F861ED0957C00D47F0E /* AddressFluUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98794F641ED0957C00D47F0E /* AddressFlu */ = {
+			isa = PBXGroup;
+			children = (
+				983D096B1F467B0B00AC50A9 /* budongchangshuju */,
+				988E5ED91F205F09004611B7 /* tmp1 */,
+				986FED5D1F186A1C008B6857 /* 230102-2.csv */,
+				9827220A1F15D372009586EF /* BDPOI */,
+				982A1F4B1F1461B60035EDAC /* 230102-1.csv */,
+				982A1F491F13957B0035EDAC /* 高德地图API 城市编码对照表.csv */,
+				985395041F0DC84D000E1E0A /* 黑龙江省区县名称.csv */,
+				985395031F0DC82D000E1E0A /* FindCenterLocation */,
+				98F73D161F07AF9300325890 /* 终端_道里区_20170701171423.csv */,
+				98E0DB8B1EE92E2600281686 /* GDPOI */,
+				98E0DB7C1EE7B00900281686 /* TuBarModel */,
+				98794FBA1ED0B92400D47F0E /* JXArcCompatibilityMacros.h */,
+				98794FB71ED0B84E00D47F0E /* parseCSV.h */,
+				98794FB81ED0B84E00D47F0E /* parseCSV.m */,
+				98794FA41ED096D200D47F0E /* GDModel */,
+				98794F681ED0957C00D47F0E /* AppDelegate.h */,
+				98794F691ED0957C00D47F0E /* AppDelegate.m */,
+				98794F6E1ED0957C00D47F0E /* Main.storyboard */,
+				98794F711ED0957C00D47F0E /* Assets.xcassets */,
+				98794F731ED0957C00D47F0E /* LaunchScreen.storyboard */,
+				98794F761ED0957C00D47F0E /* Info.plist */,
+				98794F651ED0957C00D47F0E /* Supporting Files */,
+				98794FAE1ED0976400D47F0E /* AddressViewController.h */,
+				98794FAF1ED0976400D47F0E /* AddressViewController.m */,
+				98847E9B1ED95CFA00C61B9D /* CodeViewController.h */,
+				98847E9C1ED95CFA00C61B9D /* CodeViewController.m */,
+				9899A8AC1EE2474300E0D8DD /* LocationTranfromController.h */,
+				9899A8AD1EE2474300E0D8DD /* LocationTranfromController.m */,
+				98E0DB6C1EE50E9300281686 /* LocationTestViewController.h */,
+				98E0DB6D1EE50E9300281686 /* LocationTestViewController.m */,
+				98E0DB751EE6993900281686 /* ErrorDataViewController.h */,
+				98E0DB761EE6993900281686 /* ErrorDataViewController.m */,
+				989C9F941F049FC500FB3034 /* ChangeViewController.h */,
+				989C9F951F049FC500FB3034 /* ChangeViewController.m */,
+				9811E6DD1F1CCF7E00938A24 /* TencetChangeBDViewController.h */,
+				9811E6DE1F1CCF7E00938A24 /* TencetChangeBDViewController.m */,
+			);
+			path = AddressFlu;
+			sourceTree = "<group>";
+		};
+		98794F651ED0957C00D47F0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98794F661ED0957C00D47F0E /* main.m */,
+				98F73D111F07A8AD00325890 /* GecodeViewController.h */,
+				98F73D121F07A8AD00325890 /* GecodeViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98794F7E1ED0957C00D47F0E /* AddressFluTests */ = {
+			isa = PBXGroup;
+			children = (
+				98794F7F1ED0957C00D47F0E /* AddressFluTests.m */,
+				98794F811ED0957C00D47F0E /* Info.plist */,
+			);
+			path = AddressFluTests;
+			sourceTree = "<group>";
+		};
+		98794F891ED0957C00D47F0E /* AddressFluUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98794F8A1ED0957C00D47F0E /* AddressFluUITests.m */,
+				98794F8C1ED0957C00D47F0E /* Info.plist */,
+			);
+			path = AddressFluUITests;
+			sourceTree = "<group>";
+		};
+		98794FA41ED096D200D47F0E /* GDModel */ = {
+			isa = PBXGroup;
+			children = (
+				9899A8A31EE2416E00E0D8DD /* GDLocationTranToBaiduLocationHandler.h */,
+				9899A8A41EE2416E00E0D8DD /* GDLocationTranToBaiduLocationHandler.m */,
+				98794FA51ED096D200D47F0E /* AddressComponentModel.h */,
+				98794FA61ED096D200D47F0E /* AddressComponentModel.m */,
+				98794FA71ED096D200D47F0E /* GDGetCodeHandler.h */,
+				98794FA81ED096D200D47F0E /* GDGetCodeHandler.m */,
+				98794FA91ED096D200D47F0E /* GDGetCodeModel.h */,
+				98794FAA1ED096D200D47F0E /* GDGetCodeModel.m */,
+				98794FBD1ED1269900D47F0E /* SaveCSVDataModel.h */,
+				98794FBE1ED1269900D47F0E /* SaveCSVDataModel.m */,
+				98E93D4D1ED13EDB00509A50 /* Ws84convertToGDHandler.h */,
+				98E93D4E1ED13EDB00509A50 /* Ws84convertToGDHandler.m */,
+				98E93D501ED13F8E00509A50 /* Ws84ConvertToGDModel.h */,
+				98E93D511ED13F8E00509A50 /* Ws84ConvertToGDModel.m */,
+				98E93D531ED141EC00509A50 /* Ws84ConvertReturnModel.h */,
+				98E93D541ED141EC00509A50 /* Ws84ConvertReturnModel.m */,
+				98E93D561ED1451D00509A50 /* Ws84ConvertGDManager.h */,
+				98E93D571ED1451D00509A50 /* Ws84ConvertGDManager.m */,
+				98847E9E1ED95FB600C61B9D /* GDCodeHandler.h */,
+				98847E9F1ED95FB600C61B9D /* GDCodeHandler.m */,
+				98847EA11ED960A300C61B9D /* GeCodeModel.h */,
+				98847EA21ED960A300C61B9D /* GeCodeModel.m */,
+				98847EA41ED961B000C61B9D /* GeCodeListModel.h */,
+				98847EA51ED961B000C61B9D /* GeCodeListModel.m */,
+				98E66A191EDE97F200AEBCB6 /* BDCodeTransHandler.h */,
+				98E66A1A1EDE97F200AEBCB6 /* BDCodeTransHandler.m */,
+				98E66A1C1EDE995200AEBCB6 /* BDLocationTranModel.h */,
+				98E66A1D1EDE995200AEBCB6 /* BDLocationTranModel.m */,
+				98E66A1F1EDE99C400AEBCB6 /* BDLocationTranReturnModel.h */,
+				98E66A201EDE99C400AEBCB6 /* BDLocationTranReturnModel.m */,
+				9899A8A61EE243BA00E0D8DD /* GPSspgModel.h */,
+				9899A8A71EE243BA00E0D8DD /* GPSspgModel.m */,
+				9899A8A91EE2456F00E0D8DD /* GPSspgTranforReturnModel.h */,
+				9899A8AA1EE2456F00E0D8DD /* GPSspgTranforReturnModel.m */,
+			);
+			path = GDModel;
+			sourceTree = "<group>";
+		};
+		988E5ED91F205F09004611B7 /* tmp1 */ = {
+			isa = PBXGroup;
+			children = (
+				988E5EDA1F205F09004611B7 /* export */,
+			);
+			path = tmp1;
+			sourceTree = SOURCE_ROOT;
+		};
+		988E5EDA1F205F09004611B7 /* export */ = {
+			isa = PBXGroup;
+			children = (
+				988E5EDB1F205F09004611B7 /* 230202.csv */,
+				988E5EDC1F205F09004611B7 /* 230203.csv */,
+				988E5EDD1F205F09004611B7 /* 230204.csv */,
+				988E5EDE1F205F09004611B7 /* 230205.csv */,
+				988E5EDF1F205F09004611B7 /* 230206.csv */,
+				988E5EE01F205F09004611B7 /* 230207.csv */,
+				988E5EE11F205F09004611B7 /* 230208.csv */,
+				988E5EE21F205F09004611B7 /* 230221.csv */,
+				988E5EE31F205F09004611B7 /* 230223.csv */,
+				988E5EE41F205F09004611B7 /* 230224.csv */,
+				988E5EE51F205F09004611B7 /* 230225.csv */,
+				988E5EE61F205F09004611B7 /* 230227.csv */,
+				988E5EE71F205F09004611B7 /* 230229.csv */,
+				988E5EE81F205F09004611B7 /* 230230.csv */,
+				988E5EE91F205F09004611B7 /* 230231.csv */,
+				988E5EEA1F205F09004611B7 /* 230281.csv */,
+			);
+			path = export;
+			sourceTree = "<group>";
+		};
+		98E0DB7C1EE7B00900281686 /* TuBarModel */ = {
+			isa = PBXGroup;
+			children = (
+				98E0DB7D1EE7B06C00281686 /* TubarHTMLModel.h */,
+				98E0DB7E1EE7B06C00281686 /* TubarHTMLModel.m */,
+				98E0DB801EE7B1FC00281686 /* GetTubarHTMLHandler.h */,
+				98E0DB811EE7B1FC00281686 /* GetTubarHTMLHandler.m */,
+				98E0DB831EE7DF4200281686 /* AnalysisHTMLViewController.h */,
+				98E0DB841EE7DF4200281686 /* AnalysisHTMLViewController.m */,
+				98E0DB881EE8D94900281686 /* AnalysisTableViewController.h */,
+				98E0DB891EE8D94900281686 /* AnalysisTableViewController.m */,
+			);
+			path = TuBarModel;
+			sourceTree = "<group>";
+		};
+		98E0DB8B1EE92E2600281686 /* GDPOI */ = {
+			isa = PBXGroup;
+			children = (
+				98E0DB8C1EE92E6700281686 /* GDPOIModel.h */,
+				98E0DB8D1EE92E6700281686 /* GDPOIModel.m */,
+				98E0DB8F1EE9358C00281686 /* GDPOISearchHandler.h */,
+				98E0DB901EE9358C00281686 /* GDPOISearchHandler.m */,
+				98B270851EEE8DE60050569A /* GDPOIReturnModel.h */,
+				98B270861EEE8DE60050569A /* GDPOIReturnModel.m */,
+			);
+			path = GDPOI;
+			sourceTree = "<group>";
+		};
+		DA287A30F6C1B8D50E4F22D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				414F33B6E6687AF8B375939D /* Pods-AddressFlu.debug.xcconfig */,
+				BA38BF2708E89EDCC58BF324 /* Pods-AddressFlu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEE7657E88661FDDD8A9FEAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				320785F9269EAA40546819EB /* libPods-AddressFlu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98794F611ED0957C00D47F0E /* AddressFlu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98794F8F1ED0957C00D47F0E /* Build configuration list for PBXNativeTarget "AddressFlu" */;
+			buildPhases = (
+				E573C9755CE6F70484613C23 /* [CP] Check Pods Manifest.lock */,
+				98794F5E1ED0957C00D47F0E /* Sources */,
+				98794F5F1ED0957C00D47F0E /* Frameworks */,
+				98794F601ED0957C00D47F0E /* Resources */,
+				FEEC193E9E3A1B821E2677A1 /* [CP] Embed Pods Frameworks */,
+				8877D9D88882F0B4677E9611 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressFlu;
+			productName = AddressFlu;
+			productReference = 98794F621ED0957C00D47F0E /* AddressFlu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98794F7A1ED0957C00D47F0E /* AddressFluTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98794F921ED0957C00D47F0E /* Build configuration list for PBXNativeTarget "AddressFluTests" */;
+			buildPhases = (
+				98794F771ED0957C00D47F0E /* Sources */,
+				98794F781ED0957C00D47F0E /* Frameworks */,
+				98794F791ED0957C00D47F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98794F7D1ED0957C00D47F0E /* PBXTargetDependency */,
+			);
+			name = AddressFluTests;
+			productName = AddressFluTests;
+			productReference = 98794F7B1ED0957C00D47F0E /* AddressFluTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98794F851ED0957C00D47F0E /* AddressFluUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98794F951ED0957C00D47F0E /* Build configuration list for PBXNativeTarget "AddressFluUITests" */;
+			buildPhases = (
+				98794F821ED0957C00D47F0E /* Sources */,
+				98794F831ED0957C00D47F0E /* Frameworks */,
+				98794F841ED0957C00D47F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98794F881ED0957C00D47F0E /* PBXTargetDependency */,
+			);
+			name = AddressFluUITests;
+			productName = AddressFluUITests;
+			productReference = 98794F861ED0957C00D47F0E /* AddressFluUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98794F5A1ED0957C00D47F0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = crash;
+				TargetAttributes = {
+					98794F611ED0957C00D47F0E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ESU935NVR6;
+						ProvisioningStyle = Automatic;
+					};
+					98794F7A1ED0957C00D47F0E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ESU935NVR6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98794F611ED0957C00D47F0E;
+					};
+					98794F851ED0957C00D47F0E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ESU935NVR6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98794F611ED0957C00D47F0E;
+					};
+				};
+			};
+			buildConfigurationList = 98794F5D1ED0957C00D47F0E /* Build configuration list for PBXProject "AddressFlu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98794F591ED0957C00D47F0E;
+			productRefGroup = 98794F631ED0957C00D47F0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98794F611ED0957C00D47F0E /* AddressFlu */,
+				98794F7A1ED0957C00D47F0E /* AddressFluTests */,
+				98794F851ED0957C00D47F0E /* AddressFluUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98794F601ED0957C00D47F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985395051F0DC84D000E1E0A /* 黑龙江省区县名称.csv in Resources */,
+				988E5EEE1F205F09004611B7 /* 230205.csv in Resources */,
+				988E5EF51F205F09004611B7 /* 230225.csv in Resources */,
+				98794F751ED0957C00D47F0E /* LaunchScreen.storyboard in Resources */,
+				988E5EF21F205F09004611B7 /* 230221.csv in Resources */,
+				98F73D171F07AF9300325890 /* 终端_道里区_20170701171423.csv in Resources */,
+				982A1F4A1F13957B0035EDAC /* 高德地图API 城市编码对照表.csv in Resources */,
+				988E5EF01F205F09004611B7 /* 230207.csv in Resources */,
+				988E5EEB1F205F09004611B7 /* 230202.csv in Resources */,
+				988E5EFA1F205F09004611B7 /* 230281.csv in Resources */,
+				982A1F4C1F1461B60035EDAC /* 230102-1.csv in Resources */,
+				986FED5E1F186A1C008B6857 /* 230102-2.csv in Resources */,
+				988E5EF61F205F09004611B7 /* 230227.csv in Resources */,
+				983D09901F4823CB00AC50A9 /* 幸福指数评价模型-表格 2.csv in Resources */,
+				988E5EF31F205F09004611B7 /* 230223.csv in Resources */,
+				988E5EF91F205F09004611B7 /* 230231.csv in Resources */,
+				988E5EF11F205F09004611B7 /* 230208.csv in Resources */,
+				988E5EF41F205F09004611B7 /* 230224.csv in Resources */,
+				98794F721ED0957C00D47F0E /* Assets.xcassets in Resources */,
+				988E5EED1F205F09004611B7 /* 230204.csv in Resources */,
+				988E5EEF1F205F09004611B7 /* 230206.csv in Resources */,
+				988E5EF81F205F09004611B7 /* 230230.csv in Resources */,
+				988E5EF71F205F09004611B7 /* 230229.csv in Resources */,
+				983D09701F46843200AC50A9 /* 幸福指数评价模型-表格 1.csv in Resources */,
+				98794F701ED0957C00D47F0E /* Main.storyboard in Resources */,
+				988E5EEC1F205F09004611B7 /* 230203.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98794F791ED0957C00D47F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98794F841ED0957C00D47F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8877D9D88882F0B4677E9611 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressFlu/Pods-AddressFlu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E573C9755CE6F70484613C23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEEC193E9E3A1B821E2677A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AddressFlu/Pods-AddressFlu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98794F5E1ED0957C00D47F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E66A1B1EDE97F200AEBCB6 /* BDCodeTransHandler.m in Sources */,
+				9853950E1F0DD0BE000E1E0A /* DistrictModel.m in Sources */,
+				983D09731F4684DC00AC50A9 /* BDRadiusSearchHandler.m in Sources */,
+				98847EA61ED961B000C61B9D /* GeCodeListModel.m in Sources */,
+				98794F6A1ED0957C00D47F0E /* AppDelegate.m in Sources */,
+				9899A8AE1EE2474300E0D8DD /* LocationTranfromController.m in Sources */,
+				98E66A1E1EDE995200AEBCB6 /* BDLocationTranModel.m in Sources */,
+				983D098B1F47E25100AC50A9 /* BudongchangHandler.m in Sources */,
+				982722101F15D5DE009586EF /* BDPOIModel.m in Sources */,
+				9899A8AB1EE2456F00E0D8DD /* GPSspgTranforReturnModel.m in Sources */,
+				98E0DB771EE6993900281686 /* ErrorDataViewController.m in Sources */,
+				98794FAD1ED096D200D47F0E /* GDGetCodeModel.m in Sources */,
+				98E0DB6E1EE50E9300281686 /* LocationTestViewController.m in Sources */,
+				983D09821F46954C00AC50A9 /* BDDistanceModel.m in Sources */,
+				98794FAC1ED096D200D47F0E /* GDGetCodeHandler.m in Sources */,
+				9899A8A51EE2416E00E0D8DD /* GDLocationTranToBaiduLocationHandler.m in Sources */,
+				98794FBF1ED1269900D47F0E /* SaveCSVDataModel.m in Sources */,
+				98794FB01ED0976400D47F0E /* AddressViewController.m in Sources */,
+				98E0DB8A1EE8D94900281686 /* AnalysisTableViewController.m in Sources */,
+				989C9F961F049FC500FB3034 /* ChangeViewController.m in Sources */,
+				983D09761F468B1200AC50A9 /* BDDetailInfoModel.m in Sources */,
+				98E93D521ED13F8E00509A50 /* Ws84ConvertToGDModel.m in Sources */,
+				98847EA01ED95FB600C61B9D /* GDCodeHandler.m in Sources */,
+				9899A8A81EE243BA00E0D8DD /* GPSspgModel.m in Sources */,
+				982722161F15D762009586EF /* BDPOIReturnModel.m in Sources */,
+				983D09881F469C6500AC50A9 /* BDRoutematrixReturnModel.m in Sources */,
+				98B270871EEE8DE60050569A /* GDPOIReturnModel.m in Sources */,
+				98E0DB911EE9358C00281686 /* GDPOISearchHandler.m in Sources */,
+				98794F671ED0957C00D47F0E /* main.m in Sources */,
+				98847E9D1ED95CFA00C61B9D /* CodeViewController.m in Sources */,
+				98847EA31ED960A300C61B9D /* GeCodeModel.m in Sources */,
+				9853950B1F0DCD7D000E1E0A /* FindCountyHandler.m in Sources */,
+				9811E6DF1F1CCF7E00938A24 /* TencetChangeBDViewController.m in Sources */,
+				983D097F1F4694F000AC50A9 /* BDRoutematrixModel.m in Sources */,
+				98E93D551ED141EC00509A50 /* Ws84ConvertReturnModel.m in Sources */,
+				98E0DB821EE7B1FC00281686 /* GetTubarHTMLHandler.m in Sources */,
+				98F73D131F07A8AD00325890 /* GecodeViewController.m in Sources */,
+				98E66A211EDE99C400AEBCB6 /* BDLocationTranReturnModel.m in Sources */,
+				98794FAB1ED096D200D47F0E /* AddressComponentModel.m in Sources */,
+				983D096E1F467B5D00AC50A9 /* BudongchangViewController.m in Sources */,
+				985395081F0DC873000E1E0A /* FindCentLocationViewController.m in Sources */,
+				983D09851F46963700AC50A9 /* BDDurationModel.m in Sources */,
+				9827220D1F15D399009586EF /* BDPOISearchHandler.m in Sources */,
+				982722131F15D61E009586EF /* BDPOILocationModel.m in Sources */,
+				98E93D4F1ED13EDB00509A50 /* Ws84convertToGDHandler.m in Sources */,
+				98E93D581ED1451D00509A50 /* Ws84ConvertGDManager.m in Sources */,
+				98794FB91ED0B84E00D47F0E /* parseCSV.m in Sources */,
+				983D098E1F48223100AC50A9 /* BDBudongchangPOISearchHandle.m in Sources */,
+				983D097C1F468DAD00AC50A9 /* BDRouteSearchHandler.m in Sources */,
+				98E0DB851EE7DF4200281686 /* AnalysisHTMLViewController.m in Sources */,
+				983D09791F468C5A00AC50A9 /* BDRadiuSearchReturnModel.m in Sources */,
+				98E0DB7F1EE7B06C00281686 /* TubarHTMLModel.m in Sources */,
+				985395111F0DD351000E1E0A /* FindCountyReturnModel.m in Sources */,
+				98E0DB8E1EE92E6700281686 /* GDPOIModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98794F771ED0957C00D47F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98794F801ED0957C00D47F0E /* AddressFluTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98794F821ED0957C00D47F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98794F8B1ED0957C00D47F0E /* AddressFluUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98794F7D1ED0957C00D47F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98794F611ED0957C00D47F0E /* AddressFlu */;
+			targetProxy = 98794F7C1ED0957C00D47F0E /* PBXContainerItemProxy */;
+		};
+		98794F881ED0957C00D47F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98794F611ED0957C00D47F0E /* AddressFlu */;
+			targetProxy = 98794F871ED0957C00D47F0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98794F6E1ED0957C00D47F0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98794F6F1ED0957C00D47F0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98794F731ED0957C00D47F0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98794F741ED0957C00D47F0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98794F8D1ED0957C00D47F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98794F8E1ED0957C00D47F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98794F901ED0957C00D47F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414F33B6E6687AF8B375939D /* Pods-AddressFlu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESU935NVR6;
+				INFOPLIST_FILE = AddressFlu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.AddressFlu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98794F911ED0957C00D47F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA38BF2708E89EDCC58BF324 /* Pods-AddressFlu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESU935NVR6;
+				INFOPLIST_FILE = AddressFlu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.AddressFlu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98794F931ED0957C00D47F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ESU935NVR6;
+				INFOPLIST_FILE = AddressFluTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.AddressFluTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressFlu.app/AddressFlu";
+			};
+			name = Debug;
+		};
+		98794F941ED0957C00D47F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ESU935NVR6;
+				INFOPLIST_FILE = AddressFluTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.AddressFluTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressFlu.app/AddressFlu";
+			};
+			name = Release;
+		};
+		98794F961ED0957C00D47F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ESU935NVR6;
+				INFOPLIST_FILE = AddressFluUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.AddressFluUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddressFlu;
+			};
+			name = Debug;
+		};
+		98794F971ED0957C00D47F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ESU935NVR6;
+				INFOPLIST_FILE = AddressFluUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southgis.AddressFluUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddressFlu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98794F5D1ED0957C00D47F0E /* Build configuration list for PBXProject "AddressFlu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98794F8D1ED0957C00D47F0E /* Debug */,
+				98794F8E1ED0957C00D47F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98794F8F1ED0957C00D47F0E /* Build configuration list for PBXNativeTarget "AddressFlu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98794F901ED0957C00D47F0E /* Debug */,
+				98794F911ED0957C00D47F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98794F921ED0957C00D47F0E /* Build configuration list for PBXNativeTarget "AddressFluTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98794F931ED0957C00D47F0E /* Debug */,
+				98794F941ED0957C00D47F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98794F951ED0957C00D47F0E /* Build configuration list for PBXNativeTarget "AddressFluUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98794F961ED0957C00D47F0E /* Debug */,
+				98794F971ED0957C00D47F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98794F5A1ED0957C00D47F0E /* Project object */;
+}
