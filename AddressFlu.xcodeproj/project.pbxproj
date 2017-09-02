@@ -88,6 +88,9 @@
 		98E93D521ED13F8E00509A50 /* Ws84ConvertToGDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E93D511ED13F8E00509A50 /* Ws84ConvertToGDModel.m */; };
 		98E93D551ED141EC00509A50 /* Ws84ConvertReturnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E93D541ED141EC00509A50 /* Ws84ConvertReturnModel.m */; };
 		98E93D581ED1451D00509A50 /* Ws84ConvertGDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E93D571ED1451D00509A50 /* Ws84ConvertGDManager.m */; };
+		98EDB4EF1F5ABE5B00FD1657 /* BudongchangxiangmuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EDB4EE1F5ABE5A00FD1657 /* BudongchangxiangmuViewController.m */; };
+		98EDB4F11F5AC15D00FD1657 /* 项目1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 98EDB4F01F5AC15D00FD1657 /* 项目1.csv */; };
+		98EDB4F41F5AC66800FD1657 /* GDPOISearchHandler1.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EDB4F31F5AC66800FD1657 /* GDPOISearchHandler1.m */; };
 		98F73D131F07A8AD00325890 /* GecodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F73D121F07A8AD00325890 /* GecodeViewController.m */; };
 		98F73D171F07AF9300325890 /* 终端_道里区_20170701171423.csv in Resources */ = {isa = PBXBuildFile; fileRef = 98F73D161F07AF9300325890 /* 终端_道里区_20170701171423.csv */; };
 /* End PBXBuildFile section */
@@ -251,6 +254,11 @@
 		98E93D541ED141EC00509A50 /* Ws84ConvertReturnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ws84ConvertReturnModel.m; sourceTree = "<group>"; };
 		98E93D561ED1451D00509A50 /* Ws84ConvertGDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ws84ConvertGDManager.h; sourceTree = "<group>"; };
 		98E93D571ED1451D00509A50 /* Ws84ConvertGDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ws84ConvertGDManager.m; sourceTree = "<group>"; };
+		98EDB4ED1F5ABE5A00FD1657 /* BudongchangxiangmuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudongchangxiangmuViewController.h; sourceTree = "<group>"; };
+		98EDB4EE1F5ABE5A00FD1657 /* BudongchangxiangmuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudongchangxiangmuViewController.m; sourceTree = "<group>"; };
+		98EDB4F01F5AC15D00FD1657 /* 项目1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "项目1.csv"; sourceTree = SOURCE_ROOT; };
+		98EDB4F21F5AC66800FD1657 /* GDPOISearchHandler1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDPOISearchHandler1.h; sourceTree = "<group>"; };
+		98EDB4F31F5AC66800FD1657 /* GDPOISearchHandler1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDPOISearchHandler1.m; sourceTree = "<group>"; };
 		98F73D111F07A8AD00325890 /* GecodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GecodeViewController.h; sourceTree = "<group>"; };
 		98F73D121F07A8AD00325890 /* GecodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GecodeViewController.m; sourceTree = "<group>"; };
 		98F73D161F07AF9300325890 /* 终端_道里区_20170701171423.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "终端_道里区_20170701171423.csv"; sourceTree = SOURCE_ROOT; };
@@ -369,6 +377,8 @@
 		98794F641ED0957C00D47F0E /* AddressFlu */ = {
 			isa = PBXGroup;
 			children = (
+				98EDB4F01F5AC15D00FD1657 /* 项目1.csv */,
+				98EDB4EC1F5ABD7400FD1657 /* budongchang */,
 				983D096B1F467B0B00AC50A9 /* budongchangshuju */,
 				988E5ED91F205F09004611B7 /* tmp1 */,
 				986FED5D1F186A1C008B6857 /* 230102-2.csv */,
@@ -537,6 +547,17 @@
 			path = GDPOI;
 			sourceTree = "<group>";
 		};
+		98EDB4EC1F5ABD7400FD1657 /* budongchang */ = {
+			isa = PBXGroup;
+			children = (
+				98EDB4F21F5AC66800FD1657 /* GDPOISearchHandler1.h */,
+				98EDB4F31F5AC66800FD1657 /* GDPOISearchHandler1.m */,
+				98EDB4ED1F5ABE5A00FD1657 /* BudongchangxiangmuViewController.h */,
+				98EDB4EE1F5ABE5A00FD1657 /* BudongchangxiangmuViewController.m */,
+			);
+			path = budongchang;
+			sourceTree = "<group>";
+		};
 		DA287A30F6C1B8D50E4F22D7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -672,6 +693,7 @@
 				98794F751ED0957C00D47F0E /* LaunchScreen.storyboard in Resources */,
 				988E5EF21F205F09004611B7 /* 230221.csv in Resources */,
 				98F73D171F07AF9300325890 /* 终端_道里区_20170701171423.csv in Resources */,
+				98EDB4F11F5AC15D00FD1657 /* 项目1.csv in Resources */,
 				982A1F4A1F13957B0035EDAC /* 高德地图API 城市编码对照表.csv in Resources */,
 				988E5EF01F205F09004611B7 /* 230207.csv in Resources */,
 				988E5EEB1F205F09004611B7 /* 230202.csv in Resources */,
@@ -801,6 +823,7 @@
 				98E93D551ED141EC00509A50 /* Ws84ConvertReturnModel.m in Sources */,
 				98E0DB821EE7B1FC00281686 /* GetTubarHTMLHandler.m in Sources */,
 				98F73D131F07A8AD00325890 /* GecodeViewController.m in Sources */,
+				98EDB4EF1F5ABE5B00FD1657 /* BudongchangxiangmuViewController.m in Sources */,
 				98E66A211EDE99C400AEBCB6 /* BDLocationTranReturnModel.m in Sources */,
 				98794FAB1ED096D200D47F0E /* AddressComponentModel.m in Sources */,
 				983D096E1F467B5D00AC50A9 /* BudongchangViewController.m in Sources */,
@@ -817,6 +840,7 @@
 				983D09791F468C5A00AC50A9 /* BDRadiuSearchReturnModel.m in Sources */,
 				98E0DB7F1EE7B06C00281686 /* TubarHTMLModel.m in Sources */,
 				985395111F0DD351000E1E0A /* FindCountyReturnModel.m in Sources */,
+				98EDB4F41F5AC66800FD1657 /* GDPOISearchHandler1.m in Sources */,
 				98E0DB8E1EE92E6700281686 /* GDPOIModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

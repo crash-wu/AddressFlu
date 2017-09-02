@@ -29,7 +29,7 @@
     [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeNone];
     
     
-    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[BudongchangViewController alloc]init]];
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[BudongchangxiangmuViewController alloc]init]];
     
     return YES;
 }

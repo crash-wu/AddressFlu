@@ -19,6 +19,7 @@
 #import "FindCentLocationViewController.h"
 #import "TencetChangeBDViewController.h"
 #import "BudongchangViewController.h"
+#import "BudongchangxiangmuViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

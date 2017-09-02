@@ -26,13 +26,13 @@
 //-(void)gecodeAddress:(NSString *_Nonnull)lonLat andCSVData:(NSMutableArray *_Nonnull)csvData andSuccess:(nonnull void (^)(GeCodeListModel *_Nonnull codeModel))success andFail:(nonnull void (^)(NSMutableArray *_Nullable csvData))fail;
 
 /**
- 高德逆地址编码
+ 高德地址编码
  
- @param lonLat 经纬度
+ @param address 地址
  @param csvData CSV每行数据
  @param success 逆地址编码成功
  @param fail 逆地址编码失败
  */
--(void)gecodeAddress:(NSString *_Nonnull)lonLat andCity:(NSString *_Nullable)city andCSVData:(NSMutableArray *_Nonnull)csvData andSuccess:(nonnull void (^)(GeCodeListModel *_Nonnull codeModel))success andFail:(nonnull void (^)(NSMutableArray *_Nullable csvData))fail;
+-(void)gecodeAddress:(NSString *_Nonnull)address andCity:(NSString *_Nullable)city andCSVData:(NSMutableArray *_Nonnull)csvData andSuccess:(nonnull void (^)(GeCodeListModel *_Nonnull codeModel))success andFail:(nonnull void (^)(NSMutableArray *_Nullable csvData))fail;
 
 @end
