@@ -41,9 +41,9 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     
-    self.titleArray = [[NSArray alloc] initWithObjects:@"鸡西市",@"鹤岗市",@"牡丹江市",@"大兴安岭地区",@"哈尔滨市",@"大庆市",@"齐齐哈尔市",@"佳木斯市",@"七台河市",@"黑河市",@"绥化市",@"双鸭山市",@"伊春市", nil];
+    self.titleArray = [[NSArray alloc] initWithObjects:@"广州市",@"深圳市",@"珠海市",@"汕头市",@"佛山市",@"韶关市",@"湛江市",@"肇庆市",@"江门市",@"茂名市",@"惠州市",@"梅州市",@"汕尾市",@"河源市",@"阳江市",@"清远市",@"东莞市",@"中山",@"潮州",@"揭阳",@"云浮", nil];
     
-    self.chinasArray = [[NSArray alloc] initWithObjects:@"jixi",@"hegang",@"mudanjiang",@"daxinganling",@"haerbin",@"daqing",@"qiqihaer",@"jiamusi",@"qitaihe",@"heihe",@"suihua",@"shuangyashan",@"yichun1", nil];
+    self.chinasArray = [[NSArray alloc] initWithObjects:@"guangzhou",@"shenzhen",@"zhuhai",@"shantou",@"foshan",@"shaoguan",@"zhanjiang",@"zhaoqing",@"jiangmen",@"maoming",@"huizhou",@"meizhou",@"shanwei",@"heyuan",@"yangjiang",@"qingyuan",@"dongguan",@"zhongshan",@"chaozhou",@"jieyang",@"yunfu", nil];
 }
 
 - (void)didReceiveMemoryWarning {

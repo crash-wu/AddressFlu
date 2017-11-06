@@ -24,6 +24,6 @@
  
  @param url HTML网址
  */
--(void)analysisHTMLData:(NSString *_Nonnull) url success:(nonnull void (^)(NSMutableArray<TubarHTMLModel *> *htmlModes)) success andFail:(nonnull void (^)(NSError *_Nullable error))fail;
+-(void)analysisHTMLData:(NSString *_Nonnull) url success:(nonnull void (^)(NSMutableArray<TubarHTMLModel *> * _Nullable htmlModes)) success andFail:(nonnull void (^)(NSError *_Nullable error))fail;
 
 @end

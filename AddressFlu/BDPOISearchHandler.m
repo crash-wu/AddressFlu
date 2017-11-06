@@ -133,8 +133,13 @@
         if (array.count > 0) {
             
             BDPOIModel *model = array[0];
+            NSString *name = [model.name stringByReplacingOccurrencesOfString:@"(" withString:@""];
+            name = [name stringByReplacingOccurrencesOfString:@")" withString:@""];
             
-            if ([keyworks isEqualToString:model.name]) {
+            NSString *key = [keyworks stringByReplacingOccurrencesOfString:@"(" withString:@""];
+            key=[key stringByReplacingOccurrencesOfString:@")" withString:@""];
+            
+            if ([key isEqualToString:name]) {
                 
                 returnModel.csv = csv;
                 returnModel.poiModel = array[0];

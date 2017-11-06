@@ -29,7 +29,9 @@
     [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeNone];
     
     
-    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[BudongchangxiangmuViewController alloc]init]];
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[AnalysisTableViewController alloc]init]];
+    
+    //AnalysisTableViewController.h
     
     return YES;
 }

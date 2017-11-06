@@ -131,13 +131,25 @@
         
         if (array.count > 0) {
             
-            GDPOIModel *model = array[0];
-            if ( [keyworks isEqualToString:model.name]) {
+             GDPOIModel *model = array[0];
+            NSString *name = [model.name stringByReplacingOccurrencesOfString:@"(" withString:@""];
+            name = [name stringByReplacingOccurrencesOfString:@")" withString:@""];
+            
+            NSString *key = keyworks;
+            key = [key stringByReplacingOccurrencesOfString:@"(" withString:@""];
+            key = [key stringByReplacingOccurrencesOfString:@")" withString:@""];
+            
+            
+            if ( [key isEqualToString:name]) {
                 returnModel.csv = csv;
-                returnModel.poiModel = array[0];
+                model.name = keyworks;
+                returnModel.poiModel = model;
                 success(returnModel);
             }else{
-                fail(csv);
+              //  fail(csv);
+                returnModel.csv = csv;
+                returnModel.poiModel = model;
+                success(returnModel);
             }
         }else{
             

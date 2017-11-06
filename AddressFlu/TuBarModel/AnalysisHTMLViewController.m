@@ -467,6 +467,10 @@
         
 //name,address,coor,coor-gd,pname,cname,dname,vname,adrress-gd,status,fitler,fitler-grade,location,location-tb,url
         
+        if (poiModel.name) {
+            array[0] = poiModel.name;
+        }
+        
         if (poiModel.address) {
             array[1] = poiModel.address;
         }
@@ -828,8 +832,12 @@
     [output open];
     
     //表头数据
-//    NSString *header = @"name,address,coor,coor-gd,pname,cname,dname,vname,adrress-gd,status,fitler,fitler-grade,location,location-tb,url\r\n";
-    NSString *header = @"name,address,coor,coor-tentect,pname,cname,dname,vname,adrress-gd,status,shopBindType,fitler,fitler-grade,location_type,filter-grade,name-source\r\n";
+
+//    NSString *header = @"name,address,location-bd,location-gd,pname-gd,cname-gd,dname-gd,vname-gd,adrress-gd,status,shopBindType,fitler,fitler-grade,location_type,filter-grade,name-source\r\n";模版调整前
+    
+    NSString *header = @"name,address,location,location-bd,pname,cname,dname,vname,address-gd,status,fitler,fitler-grade,shopGeoCode,shopBindType,location_Type,filter-grade,name-source\r\n";
+    
+
 
     //流编码处理
     const uint8_t *headerString = (const uint8_t *)[header cStringUsingEncoding:NSUTF8StringEncoding];
@@ -859,19 +867,21 @@
     
     NSOutputStream *output = [[NSOutputStream alloc] initToFileAtPath:filePath append:YES];
     [output open];
-    
-//    NSString *header = @"name,address,coor,coor-gd,pname,cname,dname,vname,adrress-gd,status,fitler,fitler-grade,location,location-tb,url\r\n";
+
 
     
-//    NSString *header = @"name,address,coor,coor-tentect,pname,cname,dname,vname,adrress-gd,status,shopBindType,fitler,fitler-grade,location_type,filter-grade,name-source\r\n";
+//    NSString *header = @"name,address,location-bd,location-gd,pname-gd,cname-gd,dname-gd,vname-gd,adrress-gd,status,shopBindType,fitler,fitler-grade,location_type,filter-grade,name-source\r\n";
     
+    
+    
+  //  name,address,location,location-bd,pname,cname,dname,vname,address-gd,status,fitler,fitler-grade,shopGeoCode,shopBindType,location_Type,filter-grade,name-source
     
     NSMutableArray *array = [NSMutableArray array];
     
     array[0] = csvData[0];
     array[1] = csvData[1];
-    array[2] = csvData[2];
-    array[3] = csvData[3];
+    array[2] = csvData[3];
+    array[3] = csvData[2];
     array[4] = csvData[4];
     array[5] = csvData[5];
     array[6] = csvData[6];
